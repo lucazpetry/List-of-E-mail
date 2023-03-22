@@ -1,0 +1,60 @@
+/* Define a fonte padrão e remove a margem padrão */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Define o estilo da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Define o estilo das células do cabeçalho */
+th {
+  background-color: #009688;
+  color: #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Define o estilo das células do corpo */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Define o estilo da primeira célula de cada linha */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Define o estilo das células do corpo de e-mail */
+td:nth-child(2) {
+  font-style: italic;
+}
+
+/* Define o estilo das células do corpo de ramal */
+td:nth-child(4) {
+  text-align: center;
+}
+
+/* Define o estilo do título principal */
+h1 {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+}
+
+/* Define o estilo geral dos links */
+a {
+  color: #009688;
+  text-decoration: none;
+}
+
+/* Define o estilo dos links quando passam o mouse */
+a:hover {
+  text-decoration: underline;
+}
